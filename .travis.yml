@@ -1,6 +1,6 @@
 language: bash
 os: windows
-script: hello.ps1
+script: ./hello.ps1
 
 #deploy:
 #  provider: releases
