@@ -1,6 +1,7 @@
 language: bash
 os: windows
-script: ./hello.ps1
+install: powershell
+script: powershell -File hello.ps1
 
 #deploy:
 #  provider: releases
