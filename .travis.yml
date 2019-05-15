@@ -1,8 +1,9 @@
 language: bash
 os: windows
-install: powershell
+install: 
+  - PowerShell -Command 'Set-ExecutionPolicy -ExecutionPolicy RemoteSigned'  
 script:
-  - hello.ps1
+  - PowerShell -File 'hello.ps1'
 #deploy:
 #  provider: releases
 #  api_key:
