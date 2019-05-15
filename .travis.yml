@@ -1,6 +1,5 @@
-language: powershell
 os: windows
-script: pwsh -f hello.psl
+#script: pwsh -f hello.psl
 
 #deploy:
 #  provider: releases
