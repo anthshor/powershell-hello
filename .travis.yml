@@ -1,3 +1,4 @@
+language: bash
 os: windows
 #script: pwsh -f hello.psl
 
