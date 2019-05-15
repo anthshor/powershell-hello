@@ -1,5 +1,6 @@
 language: bash
 os: windows
+script: pwd
 script: powershell hello.ps1
 
 #deploy:
