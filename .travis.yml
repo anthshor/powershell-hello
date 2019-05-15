@@ -1,6 +1,6 @@
 language: bash
 os: windows
-#script: pwsh -f hello.psl
+script: powershell hello.psl
 
 #deploy:
 #  provider: releases
