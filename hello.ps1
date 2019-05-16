@@ -1,1 +1,1 @@
-Write-Host 'Hello'
+Write-Output 'Hello'
