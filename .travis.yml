@@ -3,7 +3,7 @@ os: windows
 install: 
   - PowerShell -Command 'Set-ExecutionPolicy -ExecutionPolicy RemoteSigned'  
 script:
-  - PowerShell -File 'hello.ps1'
+  - PowerShell -File 'test/test1.ps1'
 deploy:
   provider: releases
   api_key:
