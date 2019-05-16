@@ -1,7 +1,7 @@
 $output = .\hello.ps1
 
-if($output -eq "hello"){
-   write-host(0)
+if($output -ne "hello"){
+   throw 'ERROR'
 }else {
-   write-host(1)
+   write-host("success!")
 }
